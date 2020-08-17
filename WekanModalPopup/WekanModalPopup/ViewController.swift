@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         guard let vc = self.storyboard?.instantiateViewController(identifier: "SlideUpViewController") else { return }
 //        vc.modalPresentationStyle = .overCurrentContext
         self.present(vc, animated: true, completion: nil)
+        self.present(<#T##viewControllerToPresent: UIViewController##UIViewController#>, animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
 
     }
     
