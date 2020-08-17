@@ -9,7 +9,7 @@ Find swift code samples for some commonly used modal popups in iOS.
 
 To present viewcontrollers as modals, we use 
 ```` 
-self.present(viewControllerToPresent: UIViewController, animated: <Bool>, completion: <(() -> Void)?e(() -> Void)?##() -> Void#>)
+self.present(viewControllerToPresent: UIViewController, animated: <Bool>, completion: <(() -> Void)>)
 ````
 
 The  same is customized a little to present modal views in few different ways as shown above. 
